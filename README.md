@@ -21,10 +21,10 @@ The application includes:
 - Assign a parking slot  
 - Store data inside SQL Server local database  
 
-### ✔ Vehicle Exit (if included)
+### ✔ Vehicle Exit
 - Mark vehicles as exited  
 - Free the parking slot  
-- Calculate parking duration or charges (optional)
+- Calculate parking duration and charges
 
 ### ✔ Parking Slot Visualization
 - Total slots  
@@ -36,8 +36,7 @@ The application includes:
 - SQL Server (.mdf/.ldf) local database  
 - Tables may include:
   - `Vehicles`
-  - `Slots`
-  - `Users` (Admin)
+  - `Parking_history`
 
 ### ✔ Multi-Form UI
 The app uses multiple WinForms:
